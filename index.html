@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Hamburger Menu Overlay</title>
+      </head>
+      <body>
+        <div id="contenedor_carga">
+          <div id="carga">
+
+          </div>
+        </div>
+        <div class="menu-wrap">
+          <input type="checkbox" class="toggler">
+          <div class="hamburger"><div></div></div>
+          <div class="menu">
+            <div>
+              <div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <section class="landing">
+            <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+            <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+            <div id='map' style='width: 100%; height: 100%;'></div>
+            <script>
+                mapboxgl.accessToken = 'pk.eyJ1IjoieWVsdXgiLCJhIjoiY2txYmZtcjgwMDFibjJ2bnpydjdsZHVpZiJ9.5A9rPBmqKKkG1vM3bbSJQw';
+                var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v11'
+                });
+            </script>
+        </section>
+    
+        <script>
+          window.onload = function(){
+            var contenedor = document.getElementById('contenedor_carga');
+
+            contenedor.style.visibility = 'hidden';
+            contenedor.style.opacity = '0';
+          }
+        </script>
+
+        
+    </body>
+
+</html>
