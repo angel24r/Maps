@@ -27,7 +27,7 @@
               <div>
                 <ul>
                   <li><a href="../index.php">Home</a></li>
-                  <li><a href="Page/About.php">About</a></li>
+                  <li><a href="About.php">About</a></li>
                   <li><a href="#">Services</a></li>
                   <li><a href="#">Contact</a></li>
                 </ul>

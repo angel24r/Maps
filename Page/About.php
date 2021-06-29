@@ -5,7 +5,7 @@
 	<h1>Developer team</h1>
 	<span class="borderi"></span>
 	<div class="ps">
-		<a href="#p1"><img src="../recursos/angel.jpg" alt=""></a>
+		<a href="#p1"><img src="../recursos/luz.jpeg" alt=""></a>
 		<a href="#p2"><img src="../recursos/gresia.jpeg" alt=""></a>
 		<a href="#p3"><img src="../recursos/Jaz.jpeg" alt=""></a>
 		<a href="#p4"><img src="../recursos/angel.jpg" alt=""></a>
@@ -27,7 +27,7 @@
 		<span class="name">Gresia Cervantes</span>
 		<span class="borderi"></span>
 		<p>
-		My name is Gresia Cercantes and I am a biotechnology student and science lover. I love learning new things, I speak three languages Spanish, English and French, 
+		My name is Gresia Cervantes and I am a biotechnology student and science lover. I love learning new things, I speak three languages Spanish, English and French, 
 		I am also a leader of youth groups because I would like to be part of a change. I consider myself a loving person, I like spend time with my family and appreciate 
 		every moment of my life. Not only, I like science and technology, I also love reading and writing. I am Mexican who would like to be a leader of change for my country.
 		 Since I was a child I have wondered how the universe works and I have tried to inform myself about those topics. In another way, my hobbies are reading and the sports. 
@@ -53,7 +53,9 @@
 		<p>
 		My name is Angel, I am 22 years old and I am a computer systems engineering student. I have experience in web development, mobile and desktop applications, I love traveling 
 		and being able to know new places, also meeting new people and learning a lot about the cultures of the world. I have also worked with artificial intelligence, databases, 
-		virtual and augmented reality. 
+		virtual and augmented reality. I have participated in nine national and international hackathons of which I have won four. I love being able to work to provide solutions 
+		to problems in the world, being able to use my knowledge to help others, as Saint John Bosco said "to make something extraordinary out of the ordinary." Also for two years 
+		I have been a Salesian missionary which   is another one of the things I like the most, being able to help others.
 		</p>
 			
 	</div>
