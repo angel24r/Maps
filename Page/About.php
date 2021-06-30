@@ -9,7 +9,7 @@
 		<a href="#p2"><img src="../recursos/gresia.jpeg" alt=""></a>
 		<a href="#p3"><img src="../recursos/Jaz.jpeg" alt=""></a>
 		<a href="#p4"><img src="../recursos/angel.jpg" alt=""></a>
-		<a href="#p5"><img src="../recursos/angel.jpg" alt=""></a>
+		<a href="#p5"><img src="../recursos/mich.jfif" alt=""></a>
 	</div>
 	<div class="section" id="p1">
 		<span class="name">Luz Daniela Lopez Perez</span>
@@ -39,7 +39,7 @@
 		<span class="name">Jazmin Mancera</span>
 		<span class="borderi"></span>
 		<p>
-		My name is Jazmin, i'm from México, and i am an environmental engineering student. I am 22 years old, I speak two languages Spanish and English, i am also learning German.
+		My name is Jazmin, I'm from México, and i am an environmental engineering student. I am 22 years old, I speak two languages Spanish and English, i am also learning German.
 		I am a person with an altruistic spirit, a lover of nature, animals and a curiosity for science, I really enjoy topics about cultures, music and dance, one of the most 
 		important things for me is spending time with my family and people I love, I am interested in health issues and I like to participate in social events that mean a challenge 
 		for me because in this way I can discover everything that I am capable of doing, I define myself as a simple, cheerful and resilient person, willing to face many challenges 

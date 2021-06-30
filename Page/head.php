@@ -26,10 +26,10 @@
             <div>
               <div>
                 <ul>
-                  <li><a href="../index.php">Home</a></li>
+                <li><a href="../index.php">Home</a></li>                  
+                  <li><a href="datos.php">Figures from Oaxaca</a></li>
+                  <li><a href="#">Open data</a></li>
                   <li><a href="About.php">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
                 </ul>
               </div>
             </div>

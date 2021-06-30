@@ -3210,6 +3210,87 @@ input[type="button"].btn-block {
   margin-left: 0;
 }
 
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #888;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.4rem;
+}
+
+.dropdown-menu-left {
+  right: auto;
+  left: 0;
+}
+
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+
+@media (min-width: 576px) {
+  .dropdown-menu-sm-left {
+    right: auto;
+    left: 0;
+  }
+  .dropdown-menu-sm-right {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .dropdown-menu-md-left {
+    right: auto;
+    left: 0;
+  }
+  .dropdown-menu-md-right {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .dropdown-menu-lg-left {
+    right: auto;
+    left: 0;
+  }
+  .dropdown-menu-lg-right {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dropdown-menu-xl-left {
+    right: auto;
+    left: 0;
+  }
+  .dropdown-menu-xl-right {
+    right: 0;
+    left: auto;
+  }
+}
+
+.dropup .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-top: 0;
+  margin-bottom: 0.125rem;
+}
+
 .dropup .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
@@ -3225,7 +3306,13 @@ input[type="button"].btn-block {
   margin-left: 0;
 }
 
-
+.dropright .dropdown-menu {
+  top: 0;
+  right: auto;
+  left: 100%;
+  margin-top: 0;
+  margin-left: 0.125rem;
+}
 
 .dropright .dropdown-toggle::after {
   display: inline-block;
@@ -3246,7 +3333,13 @@ input[type="button"].btn-block {
   vertical-align: 0;
 }
 
-
+.dropleft .dropdown-menu {
+  top: 0;
+  right: 100%;
+  left: auto;
+  margin-top: 0;
+  margin-right: 0.125rem;
+}
 
 .dropleft .dropdown-toggle::after {
   display: inline-block;
@@ -3277,6 +3370,10 @@ input[type="button"].btn-block {
   vertical-align: 0;
 }
 
+.dropdown-menu[x-placement^="top"], .dropdown-menu[x-placement^="right"], .dropdown-menu[x-placement^="bottom"], .dropdown-menu[x-placement^="left"] {
+  right: auto;
+  bottom: auto;
+}
 
 .dropdown-divider {
   height: 0;
@@ -3316,7 +3413,9 @@ input[type="button"].btn-block {
   background-color: transparent;
 }
 
-
+.dropdown-menu.show {
+  display: block;
+}
 
 .dropdown-header {
   display: block;
@@ -4181,7 +4280,11 @@ input[type="button"].btn-block {
   border-color: #eceeef #eceeef #fff;
 }
 
-
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
 
 .nav-pills .nav-link {
   border-radius: 0.4rem;
@@ -4271,7 +4374,10 @@ input[type="button"].btn-block {
   padding-left: 0;
 }
 
-
+.navbar-nav .dropdown-menu {
+  position: static;
+  float: none;
+}
 
 .navbar-text {
   display: inline-block;
@@ -4330,7 +4436,9 @@ input[type="button"].btn-block {
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
@@ -4370,7 +4478,9 @@ input[type="button"].btn-block {
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
@@ -4410,7 +4520,9 @@ input[type="button"].btn-block {
     -ms-flex-direction: row;
     flex-direction: row;
   }
- 
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
@@ -4450,7 +4562,9 @@ input[type="button"].btn-block {
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  
+  .navbar-expand-xl .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
@@ -4489,6 +4603,9 @@ input[type="button"].btn-block {
   flex-direction: row;
 }
 
+.navbar-expand .navbar-nav .dropdown-menu {
+  position: absolute;
+}
 
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0.5rem;
