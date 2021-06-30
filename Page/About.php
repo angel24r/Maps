@@ -5,7 +5,7 @@
 	<h1>Developer team</h1>
 	<span class="borderi"></span>
 	<div class="ps">
-		<a href="#p1"><img src="../recursos/luz.jpeg" alt=""></a>
+		<a href="#p1"><img src="../recursos/Luz.jpeg" alt=""></a>
 		<a href="#p2"><img src="../recursos/gresia.jpeg" alt=""></a>
 		<a href="#p3"><img src="../recursos/Jaz.jpeg" alt=""></a>
 		<a href="#p4"><img src="../recursos/angel.jpg" alt=""></a>
