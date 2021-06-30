@@ -60,14 +60,10 @@
 			
 	</div>
 	<div class="section" id="p5">
-		<span class="name">Gresia Cervantes</span>
+		<span class="name">Michaell Zamora Moya</span>
 		<span class="borderi"></span>
 		<p>
-		My name is Gresia Cercantes and I am a biotechnology student and science lover. I love learning new things, I speak three languages Spanish, English and French, 
-		I am also a leader of youth groups because I would like to be part of a change. I consider myself a loving person, I like spend time with my family and appreciate 
-		every moment of my life. Not only, I like science and technology, I also love reading and writing. I am Mexican who would like to be a leader of change for my country.
-		 Since I was a child I have wondered how the universe works and I have tried to inform myself about those topics. In another way, my hobbies are reading and the sports. 
-		 I consider that being healthy physically and mentally is really important nowdays.
+		My name is Michael, I am from Mexico. I am 19 years old and I study Musical Production. I love science and art and I always try to help everyone have access to them. I like to take care of the environment and do activities that impact socially, I believe that we can all gain something extraordinary from something ordinary.
 		</p>
 			
 	</div>
